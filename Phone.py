@@ -30,17 +30,18 @@ class SmartPhone(Phone):
             
 
 phone1 = SmartPhone('Samsung', 15000, 100, 'Android')
-phone1.install_app("Instagramm")
 phone2 = SmartPhone('Apple', 20000,100, 'iOS')
-phone2.install_app('Telegramm')
 phone3 = SmartPhone('Xiaomi', 18000, 100, 'Xiaomi HyperOS')
-phone3.install_app('SnapChat')
+phone4 = SmartPhone('Redmi', 17000, 20, 'HyperOS')
+
 
 phone1.info()
 phone2.info()
 phone3.info()
+phone4.info()
 
 phone1.call(30)
 phone2.call(30)
 phone3.call(30)
+phone4.call(30)
 
