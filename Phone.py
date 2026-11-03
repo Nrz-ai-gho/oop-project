@@ -32,7 +32,7 @@ class SmartPhone(Phone):
 phone1 = SmartPhone('Samsung', 15000, 100, 'Android')
 phone2 = SmartPhone('Apple', 20000,100, 'iOS')
 phone3 = SmartPhone('Xiaomi', 18000, 100, 'Xiaomi HyperOS')
-phone4 = SmartPhone('Redmi', 17000, 20, 'HyperOS')
+phone4 = SmartPhone('Redmi', 17000, 15, 'HyperOS')
 
 
 phone1.info()
@@ -44,4 +44,5 @@ phone1.call(30)
 phone2.call(30)
 phone3.call(30)
 phone4.call(30)
+
 
