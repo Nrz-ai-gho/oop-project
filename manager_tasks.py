@@ -111,7 +111,7 @@ if __name__ == "__main__":
             break
         
         else:
-            print("Invalid option MAIN") #FINISH
+            print("Invalid option MAAN") #FINISH
             
     
         
