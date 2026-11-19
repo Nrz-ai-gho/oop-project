@@ -23,7 +23,10 @@ class SmartPhone(Phone):
         
     def info(self):
             super().info()
-            print(f"Operating System: {self.os}")  
+            print(f"Operating System: {self.os}")    
+    
+    def install_app(self, name):
+        print(f"Install : {name}")
             
 
 phone1 = SmartPhone('Samsung', 15000, 100, 'Android')
