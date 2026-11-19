@@ -19,6 +19,6 @@ A collection of Python object-oriented programming (OOP) exercises, API clients,
 ## How to Run
 
 1. Clone the repository:
-   `bash
+   ```bash
    git clone [https://github.com/Nrz-ai-gho/oop-project.git](https://github.com/Nrz-ai-gho/oop-project.git)
    cd oop-project
